@@ -1,12 +1,15 @@
 {
+	"author": "Tommaso Cappa", 
 	"name": "fcc-learn-npm-package-json",
-	"author": "John Doe"
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.17.1"
 	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
+	},
+	"engines": {
+		"node": "v15.5.1"
 	},
 	"repository": {
 		"type": "git",
